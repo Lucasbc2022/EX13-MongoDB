@@ -1,0 +1,82 @@
+use heroes
+
+db.createCollection("Heroi")
+
+db.Heroi.insertOne({"_id":"0", "name":"A-Bomb", "Gender":"Male", "Eye_color":"yellow", "Race":"Human", "Hair_color":"No Hair", "Height":203.0, "Publisher":"Marvel Comics", "Alignment":"good", "Weight":441.0})
+
+db.Heroi.insertOne({"_id":"1", "name":"Abraham Sapien", "Gender":"Male", "Eye_color":"blue", "Race":"Icthyo Sapien", "Hair_color":"No Hair", "Height":191.0, "Publisher":"Dark Horse Comics", "Skin_color":"blue", "Alignment":"good", "Weight":65.0})
+
+db.Heroi.insertOne({"_id":"2", "name":"Abin Sur", "Gender":"Male", "Eye_color":"blue", "Race":"Ungaran", "Hair_color":"No Hair", "Height":185.0, "Publisher":"DC Comics", "Skin_color":"red", "Alignment":"good", "Weight":90.0})
+
+db.Heroi.insertOne({"_id":"3", "name":"Abomination", "Gender":"Male", "Eye_color":"green", "Race":"Human/Radiation", "Hair_color":"No Hair", "Height":"203.0", "Publisher":"Marvel Comics", "Alignment":"bad", "Weight":441.0})
+
+db.Heroi.insertOne({"_id":"4", "name":"Abraxas", "Gender":"Male", "Eye_color":"blue", "Race":"Cosmic entity", "Hair_color":"Black", "Height":-99.0, "Publisher":"Marvel Comics", "Alignment":"bad", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"5", "name":"Absorbing Man", "Gender":"Male", "Eye_color":"blue", "Race":"Human", "Hair_color":"No Hair", "Height":193.0, "Publisher":"Marvel Comics", "Alignment":"bad", "Weight":122.0})
+
+db.Heroi.insertOne({"_id":"6", "name":"Adam Monroe", "Gender":"Male", "Eye_color":"blue", "Hair_color":"Blond", "Height":-99.0, "Publisher":"NBC - Heroes", "Alignment":"good", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"7", "name":"Adam Strange", "Gender":"Male", "Eye_color":"blue", "Race":"Human", "Hair_color":"Blond", "Height":"185.0", "Publisher":"DC Comics", "Alignment":"good", "Weight":88.0})
+
+db.Heroi.insertOne({"_id":"8", "name":"Agent 13", "Gender":"Female", "Eye_color":"blue", "Hair_color":"Blond", "Height":173.0, "Publisher":"Marvel Comics", "Alignment":"good", "Weight":61.0})
+
+db.Heroi.insertOne({"_id":"9", "name":"Agent Bob", "Gender":"Male", "Eye_color":"blue", "Race":"Human", "Hair_color":"Brown", "Height":"178.0", "Publisher":"Marvel Comics", "Alignment":"good", "Weight":81.0})
+
+db.Heroi.insertOne({"_id":"10", "name":"Agent Zero", "Gender":"Male", "Height":"191.0", "Publisher":"Marvel Comics", "Alignment":"good", "Weight":104.0})
+
+db.Heroi.insertOne({"_id":"11", "name":"Air-Walker", "Gender":"Male", "Eye_color":"blue", "Hair_color":"White",  "Height":188.0, "Publisher":"Marvel Comics", "Alignment":"bad", "Weight":108.0})
+
+db.Heroi.insertOne({"_id":"12", "name":"Ajax", "Gender":"Male", "Eye_color":"brown", "Race":"Cyborg", "Hair_color":"blue", "Hair_color":"White",  "Height":"193.0", "Publisher":"Marvel Comics", "Alignment":"bad", "Weight":90.0})
+
+db.Heroi.insertOne({"_id":"13", "name":"Alan Scott", "Gender":"Male", "Eye_color":"blue", "Hair_color":"Blonde", "Height":180.0, "Publisher":"DC Comics", "Alignment":"good", "Weight":90.0})
+
+db.Heroi.insertOne({"_id":"14", "name":"Alex Mercer", "Gender":"Male", "Race":"Human", "Height":"-99.0", "Publisher":"Wilstorm Comics", "Alignment":"bad", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"15", "name":"Alex Woolsly", "Gender":"Male", "Height":-99.0, "Publisher":"NBC - Heores", "Alignment":"good", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"16", "name":"Alfred PennyWorth", "Gender":"Male", "Eye_color":"blue", "Race":"Human", "Hair_color":"Black", "Height":178.0, "Publisher":"DC Comics", "Alignment":"good", "Weight":72.0})
+
+db.Heroi.insertOne({"_id":"17", "name":"Alien", "Gender":"Male", "Race":"Xenomorph XX121", "Hair_color":"No Hair", "Height":244.0, "Publisher":"Dark Horse Comics", "Skin_color":"black", "Alignment":"bad", "Weight":169.0})
+
+db.Heroi.insertOne({"_id":"18", "name":"Alan Quartermain", "Gender":"Male", "Height":-99.0, "Publisher":"Wildstorm", "Alignment":"good", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"19", "name":"Amazo", "Gender":"Male", "Eye_color":"red", "Race":"Android", "Height":257.0, "Publisher":"DC Comics", "Alignment":"bad", "Weight":173.0})
+
+db.Heroi.insertOne({"_id":"20", "name":"Ammo", "Gender":"Male", "Eye_color":"brown", "Race":"Human", "Hair_color":"Blond", "Height":188.0, "Publisher":"Marvel Comics", "Alignment":"bad", "Weight":101.0})
+
+db.Heroi.insertOne({"_id":"21", "name":"Ando Masahashi", "Gender":"Male", "Height":-99.0, "Publisher":"NBC - Heroes", "Alignment":"good", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"22", "name":"Angel", "Gender":"Male", "Eye_color":"blue", "Hair_color":"Blond", "Height":183.0, "Publisher":"Marvel Comics", "Alignment":"good", "Weight":68.0})
+
+db.Heroi.insertOne({"_id":"23", "name":"Angel", "Gender":"Male", "Race":"Vampire", "Height":-99.0, "Publisher":"Dark Horse Comics", "Alignment":"good", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"24", "name":"Angel Dust", "Gender":"Female", "Eye_color":"yellow", "Race":"Mutant", "Hair_color":"Black", "Height":165.0, "Publisher":"Marvel Comics", "Alignment":"good", "Weight":57.0})
+
+db.Heroi.insertOne({"_id":"25", "name":"Angel Salvatore", "Gender":"Female", "Eye_color":"brown", "Hair_color":"Black", "Height":163.0, "Publisher":"Marvel Comics", "Alignment":"good", "Weight":54.0})
+
+db.Heroi.insertOne({"_id":"26", "name":"Angela", "Gender":"Female", "Height":-99.0, "Publisher":"Image Comics", "Alignment":"bad", "Weight":-99.0})
+
+db.Heroi.insertOne({"_id":"27", "name":"Animal Man", "Gender":"Male", "Eye_color":"blue", "Race":"Human", "Hair_color":"Blond", "Height":183.0, "Publisher":"DC Comics", "Alignment":"good", "Weight":83.0})
+
+db.Heroi.insertOne({"_id":"28", "name":"Annihilus", "Gender":"Male", "Eye_color":"green", "Hair_color":"No Hair", "Height":180.0, "Publisher":"Marvel Comics", "Alignment":"bad", "Weight":90.0})
+
+db.Heroi.insertOne({"_id":"29", "name":"Ant-Man", "Gender":"Male", "Eye_color":"blue", "Race":"Human",  "Hair_color":"Blond", "Height":211.0, "Publisher":"Marvel Comics", "Alignment":"good", "Weight":122.0})
+
+db.Heroi.insertOne({"_id":"30", "name":"Ant-Man II", "Gender":"Male", "Eye_color":"blue", "Race":"Human", "Hair_color":"Blond", "Height":183.0, "Publisher":"Marvel Comics", "Alignment":"good", "Weight":86.0})
+
+
+
+db.Heroi.find({$or:[{"Eye_color":{$exists:true}},{"Hair_color":{$exists:true}}]})
+
+db.Heroi.find({"Gender":"Female"})
+db.Heroi.find({$nor:[{"Gender":"Male"}]})
+
+db.Heroi.find({"Weight":{$lt:0}})
+
+db.Heroi.find({"Weight":{$gt:100}})
+
+db.Heroi.find({$nor:[{"Publisher":"Marvel Comics"}]})
+
+db.Heroi.find({"Publisher":{$eq:"DC Comics"}})
+
+db.Heroi.find({$and:[{"Publisher":"Marvel Comics"},{"Race":"Human"}]})
